@@ -1,2 +1,3 @@
 # Rules
-Rules for Surge and Quantumult X
+
+自用规则，修改自 lhie1/Rules
