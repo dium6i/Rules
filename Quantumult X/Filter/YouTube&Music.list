@@ -1,4 +1,4 @@
-# > YouTube
+# > YouTube&Music
 USER-AGENT,*youtube*,YouTube
 USER-AGENT,YouTube*,YouTube
 USER-AGENT,*YouTubeMusic*,YouTube
