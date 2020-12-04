@@ -1,0 +1,28 @@
+# > Bilibili
+USER-AGENT,bili*,DomesticTV
+USER-AGENT,Bilibili*,DomesticTV
+DOMAIN-SUFFIX,acg.tv,DomesticTV
+DOMAIN-SUFFIX,acgvideo.com,DomesticTV
+DOMAIN-SUFFIX,b23.tv,DomesticTV
+DOMAIN-SUFFIX,biliapi.com,DomesticTV
+DOMAIN-SUFFIX,biliapi.net,DomesticTV
+DOMAIN-SUFFIX,bilibili.com,DomesticTV
+DOMAIN-SUFFIX,biligame.com,DomesticTV
+DOMAIN-SUFFIX,biligame.net,DomesticTV
+DOMAIN-SUFFIX,bilivideo.com,DomesticTV
+DOMAIN-SUFFIX,hdslb.com,DomesticTV
+DOMAIN-SUFFIX,im9.com,DomesticTV
+DOMAIN-SUFFIX,smtcdns.net,DomesticTV
+
+# > Tencent Video
+DOMAIN-SUFFIX,v.smtcdns.com,DomesticTV
+DOMAIN-SUFFIX,vv.video.qq.com,DomesticTV
+
+# > iQiyi
+USER-AGENT,QIYI*,DomesticTV
+USER-AGENT,iQiYi*,DomesticTV
+DOMAIN-KEYWORD,qiyi,DomesticTV
+DOMAIN-SUFFIX,qy.net,DomesticTV
+IP-CIDR,101.227.0.0/16,no-resolve,DomesticTV
+IP-CIDR,101.224.0.0/13,no-resolve,DomesticTV
+IP-CIDR,119.176.0.0/12,no-resolve,DomesticTV
