@@ -1,0 +1,13 @@
+DOMAIN-SUFFIX,ios.bugly.qq.com
+
+# > Princess Connect
+USER-AGENT,priconne
+
+# > Date A Live
+USER-AGENT,YHDZZ
+
+# > 足迹
+USER-AGENT,%E8%B6%B3%E8%BF%B9*
+
+# > VVebo
+USER-AGENT,VVebo
