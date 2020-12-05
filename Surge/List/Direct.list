@@ -2,6 +2,7 @@ DOMAIN-SUFFIX,ios.bugly.qq.com
 
 # > Princess Connect
 USER-AGENT,priconne
+DOMAIN-SUFFIX,xdrig.com
 
 # > Date A Live
 USER-AGENT,YHDZZ
