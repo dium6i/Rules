@@ -8,6 +8,8 @@ DOMAIN-SUFFIX,xdrig.com
 
 # > Date A Live
 USER-AGENT,YHDZZ
+DOMAIN-SUFFIX,reyun.com
+DOMAIN-SUFFIX,datealive.com
 
 # > 足迹
 USER-AGENT,%E8%B6%B3%E8%BF%B9*
