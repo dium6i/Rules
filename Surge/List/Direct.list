@@ -4,11 +4,9 @@ DOMAIN-SUFFIX,biligame.net
 
 # > Princess Connect
 USER-AGENT,priconne
-DOMAIN-SUFFIX,xdrig.com
 
 # > Date A Live
 USER-AGENT,YHDZZ
-DOMAIN-SUFFIX,reyun.com
 DOMAIN-SUFFIX,datealive.com
 
 # > 足迹
