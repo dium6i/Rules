@@ -2,6 +2,9 @@
 DOMAIN-SUFFIX,track.midway.run
 DOMAIN-SUFFIX,birth.codefuture.top
 
+# > 12306开屏广告
+DOMAIN-SUFFIX,ad.12306.cn
+
 # Ads in Video apps
 
 # > iqiyi & pps
