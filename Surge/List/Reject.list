@@ -1,10 +1,11 @@
 # > Ads
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,googletagservices.com
 DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,trafficjunky.net
 
 # > 生辰开屏广告
 DOMAIN-SUFFIX,track.midway.run
