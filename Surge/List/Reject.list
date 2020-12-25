@@ -1,6 +1,7 @@
 # > Ads
 DOMAIN-SUFFIX,adservice.google.com
 DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,dyncdn.me
 DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googlesyndication.com
