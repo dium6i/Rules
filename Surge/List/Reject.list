@@ -211,6 +211,10 @@ URL-REGEX,^https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{
 # > ele
 DOMAIN,log.star.ele.me
 
+# JD
+DOMAIN,dns.jd.com
+IP-CIDR,101.124.19.122/32,no-resolve
+
 # > Zhihu
 DOMAIN,mqtt.zhihu.com
 DOMAIN,sugar.zhihu.com
