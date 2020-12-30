@@ -62,6 +62,10 @@ IP-CIDR,101.227.97.240/32,no-resolve
 IP-CIDR,101.227.200.11/32,no-resolve
 IP-CIDR,101.227.200.28/32,no-resolve
 IP-CIDR,124.192.153.42/32,no-resolve
+URL-REGEX,^https?+:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo
+URL-REGEX,^https?+:\/\/.+?\/(?>mixer|track2)\?
+URL-REGEX,^https?+:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do
+URL-REGEX,^https?+:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show
 
 # > Youku & Tudou
 DOMAIN-SUFFIX,actives.youku.com
@@ -177,6 +181,35 @@ DOMAIN-SUFFIX,itv.hexun.com
 DOMAIN-SUFFIX,utrack.hexun.com
 URL-REGEX,https?://h\w{2}.hxsame.hexun.com
 
+# > 阿里
+URL-REGEX,^https?+:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.tmall\.wireless
+# >> 1688
+URL-REGEX,^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv
+# >> 淘宝
+URL-REGEX,^https?+:\/\/(?>heic|gw)\.alicdn\.com\/tfs\/TB1.+?-\d{4}-\d{4}\.jpg_1200x1200q90\.jpg_\.\w{3,4}+$
+URL-REGEX,^https?+:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$
+URL-REGEX,^https?+:\/\/gw\.alicdn\.com\/tfs\/.+?\d{4}-\d{4}\/[a-z]{3}$
+# >> 淘票票
+URL-REGEX,^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise\/
+# >> 天猫
+URL-REGEX,^https?+:\/\/gw\.alicdn\.com\/tfs\/TB1.+?750-\d{4}
+# >> 优酷
+URL-REGEX,^https?+:\/\/.+?\.mp4\?ccode=0902
+URL-REGEX,^https?+:\/\/.+?\.mp4\?sid=
+URL-REGEX,^https?+:\/\/vali\.cp31\.ott\.cibntv\.net\/youku\/.+?\.mp4\?sid=
+
+# >> 百度网盘
+URL-REGEX,^https?+:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/adx
+URL-REGEX,^https?+:\/\/pan\.baidu\.com\/act\/api\/activityentry
+URL-REGEX,^https?+:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao\/
+# >> 百度贴吧
+IP-CIDR,180.76.76.200/32,no-resolve
+URL-REGEX,^https?+:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule
+URL-REGEX,^https?+:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo
+URL-REGEX,^https?+:\/\/c\.tieba\.baidu\.com\/\w+?\/\w+?\/(?>sync|newRnSync|mlog)
+# >> 百度地图
+URL-REGEX,^https?+:\/\/ss0\.bdstatic\.com/.+?_\d{3}_\d{4}\.jpg
+
 # > Baidu
 DOMAIN-SUFFIX,baidustatic.com
 DOMAIN,duclick.baidu.com
@@ -204,6 +237,9 @@ URL-REGEX,http://app.bilibili.com/x/v2/dataflow/report-TINYGIF
 URL-REGEX,https://app.bilibili.com/x/v2/search/(defaultword|hot|recommend|resource)
 URL-REGEX,https://app.bilibili.com/x/v2/rank.*rid=(168|5)
 URL-REGEX,https://api.bilibili.com/pgc/season/rank/cn
+# > 哔哩哔哩
+URL-REGEX,^https?+:\/\/app\.bilibili\.com\/x\/v\d\/splash\/
+URL-REGEX,^https?+:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash
 
 # > Didi
 URL-REGEX,^https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/
@@ -214,6 +250,49 @@ DOMAIN,log.star.ele.me
 # JD
 DOMAIN,dns.jd.com
 IP-CIDR,101.124.19.122/32,no-resolve
+URL-REGEX,^https?+:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$
+URL-REGEX,^https?+:\/\/b?dsp-x\.jd\.com\/adx\/
+URL-REGEX,^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo
+URL-REGEX,^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture
+
+# > Sina
+DOMAIN-SUFFIX,beacon.sina.com.cn
+DOMAIN,adimg.vue.weibo.com
+DOMAIN,sax.sina.com.cn
+DOMAIN,saxn.sina.com.cn
+DOMAIN,saxs.sina.com.cn
+DOMAIN,u1.img.mobile.sina.cn
+
+# > Tencent
+DOMAIN-SUFFIX,e.qq.com
+DOMAIN-SUFFIX,l.qq.com
+DOMAIN,adsmind.apdcdn.tc.qq.com
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,adsmind.tc.qq.com
+DOMAIN,btrace.qq.com
+DOMAIN,c.gdt.qq.com
+DOMAIN,c.gdt.qq.com
+DOMAIN,canvas.gdt.qq.com
+DOMAIN,d.gdt.qq.com
+DOMAIN,i.gdt.qq.com
+DOMAIN,mi.gdt.qq.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,pgdt.gtimg.com
+DOMAIN,pgdt.ugdtimg.com
+DOMAIN,q.i.gdt.qq.com
+DOMAIN,rm.gdt.qq.com
+DOMAIN,s.gdt.qq.com
+DOMAIN,splashqqlive.gtimg.com
+DOMAIN,t.gdt.qq.com
+DOMAIN,v.gdt.qq.com
+DOMAIN,v2.gdt.qq.com
+DOMAIN,wa.gtimg.com
+DOMAIN,win.gdt.qq.com
+DOMAIN,wxsnsdy.wxs.qq.com
+DOMAIN,wxsnsdythumb.wxs.qq.com
+DOMAIN,xc.gdt.qq.com
+# >> 微信
+URL-REGEX,^https?+:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad)
 
 # > Zhihu
 DOMAIN,mqtt.zhihu.com
@@ -223,6 +302,9 @@ URL-REGEX,https://api.zhihu.com/(fringe|zst|real_time|ad-style-service|banners|t
 URL-REGEX,https://api.zhihu.com.*(launch|recommendations)
 URL-REGEX,https://api.zhihu.com/search/(top|tabs|preset)
 URL-REGEX,https://api.zhihu.com/answers/.*/comments/featured-comment-ad
+
+# > 招商银行
+URL-REGEX,^https?+:\/\/pic1cdn\.cmbchina\.com\/appinitads\/
 
 URL-REGEX,https?://(e|m).+/((uu|oo).php.+|\d+.x?html\?$)
 URL-REGEX,https?://[^(apple|10010)]+.(com|cn)\/(a|A)d(s|v)?(/|.js)
@@ -235,7 +317,7 @@ URL-REGEX,https?://\w+.gdt.qq.com
 URL-REGEX,https?://\w+.kingsoft-office-service.com
 URL-REGEX,https?://9377\w{2}.com
 URL-REGEX,https?://a0b\w{2}.com
-URL-REGEX,https?://(a?d|sax)\d.sina.com
+URL-REGEX,https?://(a?d|sax)\d..com
 URL-REGEX,https?://d\d.sinaimg.cn
 URL-REGEX,https?://dl.app.gtja.com/.+\d+.jpg$
 URL-REGEX,https?://impservice.+?youdao.com
@@ -274,3 +356,5 @@ IP-CIDR,106.75.231.48/32
 IP-CIDR,119.4.249.166/32
 IP-CIDR,220.196.52.141/32
 IP-CIDR,221.6.4.148/32
+URL-REGEX,^https?+:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm
+URL-REGEX,^https?+:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getWelcomeAd
