@@ -251,6 +251,9 @@ DOMAIN,log.star.ele.me
 DOMAIN,dns.jd.com
 IP-CIDR,101.124.19.122/32,no-resolve
 URL-REGEX,^https?+:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$
+URL-REGEX,"^https?+:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$"
+URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start
+URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=(start|queryMaterialAdverts)
 URL-REGEX,^https?+:\/\/b?dsp-x\.jd\.com\/adx\/
 URL-REGEX,^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo
 URL-REGEX,^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture
